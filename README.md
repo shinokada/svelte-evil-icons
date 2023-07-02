@@ -22,7 +22,7 @@ Thank you for considering my open-source package. If you use it in a commercial 
 
 ## Installation
 
-````sh
+```sh
 npm i -D svelte-evil-icons
 ```
 
