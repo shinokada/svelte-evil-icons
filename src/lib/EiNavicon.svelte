@@ -1,0 +1,46 @@
+<script>
+  export let color = 'currentColor';
+  export let size = '50';
+  export let role = 'img';
+  export let ariaLabel = 'ei navicon';
+</script>
+
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width={size}
+  height={size}
+  fill={color}
+  {role}
+  {...$$restProps}
+  aria-label={ariaLabel}
+  on:click
+  on:keydown
+  on:keyup
+  on:focus
+  on:blur
+  on:mouseenter
+  on:mouseleave
+  on:mouseover
+  on:mouseout
+  viewBox="0 0 50 50"
+  ><path d="M10 12h30v4H10z" /><path d="M10 22h30v4H10z" /><path d="M10 32h30v4H10z" /></svg
+>
+<!--
+@component
+[Go to Document](https://shinokada.github.io/svelte-cssgg-icons/)
+## Props
+@prop role = 'img';
+@prop size = '50';
+@prop color = 'currentColor'
+@prop ariaLabel='file name'
+## Event
+- on:click
+- on:keydown
+- on:keyup
+- on:focus
+- on:blur
+- on:mouseenter
+- on:mouseleave
+- on:mouseover
+- on:mouseout
+-->

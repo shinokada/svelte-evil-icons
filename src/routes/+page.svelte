@@ -1,0 +1,76 @@
+<script>
+  import * as Icon from '$lib';
+</script>
+
+<Icon.EiArchive />
+<Icon.EiArrowDown />
+<Icon.EiArrowLeft />
+<Icon.EiArrowRight />
+<Icon.EiArrowUp />
+<Icon.EiBell />
+<Icon.EiCalendar />
+<Icon.EiCamera />
+<Icon.EiCart />
+<Icon.EiChart />
+<Icon.EiCheck />
+<Icon.EiChevronDown />
+<Icon.EiChevronLeft />
+<Icon.EiChevronRight />
+<Icon.EiChevronUp />
+<Icon.EiClock />
+<Icon.EiClose />
+<Icon.EiCloseO />
+<Icon.EiComment />
+<Icon.EiCreditCard />
+<Icon.EiEnvelope />
+<Icon.EiExclamation />
+<Icon.EiExternalLink />
+<Icon.EiEye />
+<Icon.EiGear />
+<Icon.EiHeart />
+<Icon.EiImage />
+<Icon.EiLike />
+<Icon.EiLink />
+<Icon.EiLocation />
+<Icon.EiLock />
+<Icon.EiMinus />
+<Icon.EiNavicon />
+<Icon.EiPaperclip />
+<Icon.EiPencil />
+<Icon.EiPlay />
+<Icon.EiPlus />
+<Icon.EiPointer />
+<Icon.EiQuestion />
+<Icon.EiRedo />
+<Icon.EiRefresh />
+<Icon.EiRetweet />
+<Icon.EiScFacebook />
+<Icon.EiScGithub />
+<Icon.EiScGooglePlus />
+<Icon.EiScInstagram />
+<Icon.EiScLinkedin />
+<Icon.EiScOdnoklassniki />
+<Icon.EiScPinterest />
+<Icon.EiScSkype />
+<Icon.EiScSoundcloud />
+<Icon.EiScTelegram />
+<Icon.EiScTumblr />
+<Icon.EiScTwitter />
+<Icon.EiScVimeo />
+<Icon.EiScVk />
+<Icon.EiScYoutube />
+<Icon.EiSearch />
+<Icon.EiShareApple />
+<Icon.EiShareGoogle />
+<Icon.EiSpinner />
+<Icon.EiSpinner2 />
+<Icon.EiSpinner3 />
+<Icon.EiStar />
+<Icon.EiTag />
+<Icon.EiTrash />
+<Icon.EiTrophy />
+<Icon.EiUndo />
+<Icon.EiUnlock />
+<Icon.EiUser />
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50"><path d="M25 38c-5.1 0-9.7-3-11.8-7.6l1.8-.8c1.8 3.9 5.7 6.4 10 6.4 6.1 0 11-4.9 11-11s-4.9-11-11-11c-4.6 0-8.5 2.8-10.1 7.3l-1.9-.7c1.9-5.2 6.6-8.6 12-8.6 7.2 0 13 5.8 13 13s-5.8 13-13 13z"/><path d="M20 22h-8v-8h2v6h6z"/></svg>
