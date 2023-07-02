@@ -68,4 +68,3 @@ EiTrophy.svelte
 EiUndo.svelte
 EiUnlock.svelte
 EiUser.svelte
-index.js

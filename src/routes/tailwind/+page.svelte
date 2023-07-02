@@ -1,0 +1,83 @@
+<script>
+  import DarkMode from 'flowbite-svelte/DarkMode.svelte';
+  import * as Icon from '$lib';
+  const random_hex_color_code = () => {
+    let n = (Math.random() * 0xfffff * 1000000).toString(16);
+    return '#' + n.slice(0, 6);
+  };
+</script>
+
+<DarkMode />
+<div>
+  <Icon.EiBell class="text-blue-700 dark:text-red-500 " />
+  <Icon.EiArchive />
+  <Icon.EiArrowDown />
+  <Icon.EiArrowLeft />
+  <Icon.EiArrowRight />
+  <Icon.EiArrowUp />
+  <Icon.EiBell />
+  <Icon.EiCalendar />
+  <Icon.EiCamera />
+  <Icon.EiCart />
+  <Icon.EiChart />
+  <Icon.EiCheck />
+  <Icon.EiChevronDown />
+  <Icon.EiChevronLeft />
+  <Icon.EiChevronRight />
+  <Icon.EiChevronUp />
+  <Icon.EiClock />
+  <Icon.EiClose />
+  <Icon.EiCloseO />
+  <Icon.EiComment />
+  <Icon.EiCreditCard />
+  <Icon.EiEnvelope />
+  <Icon.EiExclamation />
+  <Icon.EiExternalLink />
+  <Icon.EiEye />
+  <Icon.EiGear />
+  <Icon.EiHeart />
+  <Icon.EiImage />
+  <Icon.EiLike />
+  <Icon.EiLink />
+  <Icon.EiLocation />
+  <Icon.EiLock />
+  <Icon.EiMinus />
+  <Icon.EiNavicon />
+  <Icon.EiPaperclip />
+  <Icon.EiPencil />
+  <Icon.EiPlay />
+  <Icon.EiPlus />
+  <Icon.EiPointer />
+  <Icon.EiQuestion />
+  <Icon.EiRedo />
+  <Icon.EiRefresh />
+  <Icon.EiRetweet />
+  <Icon.EiScFacebook />
+  <Icon.EiScGithub />
+  <Icon.EiScGooglePlus />
+  <Icon.EiScInstagram />
+  <Icon.EiScLinkedin />
+  <Icon.EiScOdnoklassniki />
+  <Icon.EiScPinterest />
+  <Icon.EiScSkype />
+  <Icon.EiScSoundcloud />
+  <Icon.EiScTelegram />
+  <Icon.EiScTumblr />
+  <Icon.EiScTwitter />
+  <Icon.EiScVimeo />
+  <Icon.EiScVk />
+  <Icon.EiScYoutube />
+  <Icon.EiSearch />
+  <Icon.EiShareApple />
+  <Icon.EiShareGoogle />
+  <Icon.EiSpinner />
+  <Icon.EiSpinner2 />
+  <Icon.EiSpinner3 />
+  <Icon.EiStar />
+  <Icon.EiTag />
+  <Icon.EiTrash />
+  <Icon.EiTrophy />
+  <Icon.EiUndo />
+  <Icon.EiUnlock />
+  <Icon.EiUser />
+</div>

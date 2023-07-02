@@ -36,8 +36,9 @@
 >
 <!--
 @component
-[Go to Document](https://shinokada.github.io/svelte-cssgg-icons/)
+[Go to Document](https://shinokada.github.io/svelte-evil-icons/)
 ## Props
+@prop strokeWidth = '2'
 @prop role = 'img';
 @prop size = '50';
 @prop color = 'currentColor'
