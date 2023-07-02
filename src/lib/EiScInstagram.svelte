@@ -1,4 +1,5 @@
 <script>
+  export let strokeWidth = '2';
   export let color = 'currentColor';
   export let size = '50';
   export let role = 'img';
@@ -10,6 +11,9 @@
   height={size}
   fill={color}
   {role}
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  stroke-width={strokeWidth}
   {...$$restProps}
   aria-label={ariaLabel}
   on:click
