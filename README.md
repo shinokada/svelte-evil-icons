@@ -24,7 +24,7 @@ Thank you for considering my open-source package. If you use it in a commercial 
 
 ````sh
 npm i -D svelte-evil-icons
-```q
+```
 
 ## Icon names
 
@@ -136,11 +136,11 @@ Let's use `dark` for the dark mode class as an example.
 
 ## aria-label
 
-All icons have aria-label. For example `EiBell` has `aria-label="bx abacus"`.
+All icons have aria-label. For example `EiBell` has `aria-label="ei bell"`.
 Use `ariaLabel` prop to modify the `aria-label` value.
 
 ```html
-<EiBell ariaLabel="abacus svg icon" />
+<EiBell ariaLabel="ei bell" />
 ```
 
 ## Unfocusable icon

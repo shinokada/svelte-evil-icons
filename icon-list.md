@@ -1,70 +1,72 @@
-EiArchive.svelte
-EiArrowDown.svelte
-EiArrowLeft.svelte
-EiArrowRight.svelte
-EiArrowUp.svelte
-EiBell.svelte
-EiCalendar.svelte
-EiCamera.svelte
-EiCart.svelte
-EiChart.svelte
-EiCheck.svelte
-EiChevronDown.svelte
-EiChevronLeft.svelte
-EiChevronRight.svelte
-EiChevronUp.svelte
-EiClock.svelte
-EiClose.svelte
-EiCloseO.svelte
-EiComment.svelte
-EiCreditCard.svelte
-EiEnvelope.svelte
-EiExclamation.svelte
-EiExternalLink.svelte
-EiEye.svelte
-EiGear.svelte
-EiHeart.svelte
-EiImage.svelte
-EiLike.svelte
-EiLink.svelte
-EiLocation.svelte
-EiLock.svelte
-EiMinus.svelte
-EiNavicon.svelte
-EiPaperclip.svelte
-EiPencil.svelte
-EiPlay.svelte
-EiPlus.svelte
-EiPointer.svelte
-EiQuestion.svelte
-EiRedo.svelte
-EiRefresh.svelte
-EiRetweet.svelte
-EiScFacebook.svelte
-EiScGithub.svelte
-EiScGooglePlus.svelte
-EiScInstagram.svelte
-EiScLinkedin.svelte
-EiScOdnoklassniki.svelte
-EiScPinterest.svelte
-EiScSkype.svelte
-EiScSoundcloud.svelte
-EiScTelegram.svelte
-EiScTumblr.svelte
-EiScTwitter.svelte
-EiScVimeo.svelte
-EiScVk.svelte
-EiScYoutube.svelte
-EiSearch.svelte
-EiShareApple.svelte
-EiShareGoogle.svelte
-EiSpinner.svelte
-EiSpinner2.svelte
-EiSpinner3.svelte
-EiStar.svelte
-EiTag.svelte
-EiTrash.svelte
-EiTrophy.svelte
-EiUndo.svelte
-EiUnlock.svelte
-EiUser.svelte
+# Icon names
+
+- EiArchive
+- EiArrowDown
+- EiArrowLeft
+- EiArrowRight
+- EiArrowUp
+- EiBell
+- EiCalendar
+- EiCamera
+- EiCart
+- EiChart
+- EiCheck
+- EiChevronDown
+- EiChevronLeft
+- EiChevronRight
+- EiChevronUp
+- EiClock
+- EiClose
+- EiCloseO
+- EiComment
+- EiCreditCard
+- EiEnvelope
+- EiExclamation
+- EiExternalLink
+- EiEye
+- EiGear
+- EiHeart
+- EiImage
+- EiLike
+- EiLink
+- EiLocation
+- EiLock
+- EiMinus
+- EiNavicon
+- EiPaperclip
+- EiPencil
+- EiPlay
+- EiPlus
+- EiPointer
+- EiQuestion
+- EiRedo
+- EiRefresh
+- EiRetweet
+- EiScFacebook
+- EiScGithub
+- EiScGooglePlus
+- EiScInstagram
+- EiScLinkedin
+- EiScOdnoklassniki
+- EiScPinterest
+- EiScSkype
+- EiScSoundcloud
+- EiScTelegram
+- EiScTumblr
+- EiScTwitter
+- EiScVimeo
+- EiScVk
+- EiScYoutube
+- EiSearch
+- EiShareApple
+- EiShareGoogle
+- EiSpinner
+- EiSpinner2
+- EiSpinner3
+- EiStar
+- EiTag
+- EiTrash
+- EiTrophy
+- EiUndo
+- EiUnlock
+- EiUser
