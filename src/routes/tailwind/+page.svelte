@@ -9,75 +9,75 @@
 
 <DarkMode />
 <div>
-  <Icon.EiBell class="text-blue-700 dark:text-red-500 " />
-  <Icon.EiArchive />
-  <Icon.EiArrowDown />
-  <Icon.EiArrowLeft />
-  <Icon.EiArrowRight />
-  <Icon.EiArrowUp />
-  <Icon.EiBell />
-  <Icon.EiCalendar />
-  <Icon.EiCamera />
-  <Icon.EiCart />
-  <Icon.EiChart />
-  <Icon.EiCheck />
-  <Icon.EiChevronDown />
-  <Icon.EiChevronLeft />
-  <Icon.EiChevronRight />
-  <Icon.EiChevronUp />
-  <Icon.EiClock />
-  <Icon.EiClose />
-  <Icon.EiCloseO />
-  <Icon.EiComment />
-  <Icon.EiCreditCard />
-  <Icon.EiEnvelope />
-  <Icon.EiExclamation />
-  <Icon.EiExternalLink />
-  <Icon.EiEye />
-  <Icon.EiGear />
-  <Icon.EiHeart />
-  <Icon.EiImage />
-  <Icon.EiLike />
-  <Icon.EiLink />
-  <Icon.EiLocation />
-  <Icon.EiLock />
-  <Icon.EiMinus />
-  <Icon.EiNavicon />
-  <Icon.EiPaperclip />
-  <Icon.EiPencil />
-  <Icon.EiPlay />
-  <Icon.EiPlus />
-  <Icon.EiPointer />
-  <Icon.EiQuestion />
-  <Icon.EiRedo />
-  <Icon.EiRefresh />
-  <Icon.EiRetweet />
-  <Icon.EiScFacebook />
-  <Icon.EiScGithub />
-  <Icon.EiScGooglePlus />
-  <Icon.EiScInstagram />
-  <Icon.EiScLinkedin />
-  <Icon.EiScOdnoklassniki />
-  <Icon.EiScPinterest />
-  <Icon.EiScSkype />
-  <Icon.EiScSoundcloud />
-  <Icon.EiScTelegram />
-  <Icon.EiScTumblr />
-  <Icon.EiScTwitter />
-  <Icon.EiScVimeo />
-  <Icon.EiScVk />
-  <Icon.EiScYoutube />
-  <Icon.EiSearch />
-  <Icon.EiShareApple />
-  <Icon.EiShareGoogle />
-  <Icon.EiSpinner />
-  <Icon.EiSpinner2 />
-  <Icon.EiSpinner3 />
-  <Icon.EiStar />
-  <Icon.EiTag />
-  <Icon.EiTrash />
-  <Icon.EiTrophy />
-  <Icon.EiUndo />
-  <Icon.EiUnlock />
-  <Icon.EiUser />
+  <Icon.EiBell class="text-blue-700 dark:text-red-500 inline" size="55" />
+  <Icon.EiArchive class="text-blue-700 dark:text-red-500 inline" size="55" />
+  <Icon.EiArrowDown class="text-blue-700 dark:text-red-500 inline" size="55" />
+  <Icon.EiArrowLeft class="text-blue-700 dark:text-red-500 inline" size="55" />
+  <Icon.EiArrowRight class="text-blue-700 dark:text-red-500 inline" size="55" />
+  <Icon.EiArrowUp class="text-blue-700 dark:text-red-500 inline" size="55" />
+  <Icon.EiBell class="text-blue-700 dark:text-red-500 inline" size="55" />
+  <Icon.EiCalendar class="text-blue-700 dark:text-red-500 inline" size="55" />
+  <Icon.EiCamera class="text-blue-700 dark:text-red-500 inline" size="55" />
+  <Icon.EiCart class="text-blue-700 dark:text-red-500 inline" size="55" />
+  <Icon.EiChart class="text-blue-700 dark:text-red-500 inline" size="55" />
+  <Icon.EiCheck class="text-blue-700 dark:text-red-500 inline" size="55" />
+  <Icon.EiChevronDown class="text-blue-700 dark:text-red-500 inline" size="55" />
+  <Icon.EiChevronLeft class="text-blue-700 dark:text-red-500 inline" size="55" />
+  <Icon.EiChevronRight class="text-blue-700 dark:text-red-500 inline" size="55" />
+  <Icon.EiChevronUp class="text-blue-700 dark:text-red-500 inline" size="55" />
+  <Icon.EiClock class="text-blue-700 dark:text-red-500 inline" size="55" />
+  <Icon.EiClose class="text-blue-700 dark:text-red-500 inline" size="55" />
+  <Icon.EiCloseO class="text-blue-700 dark:text-red-500 inline" size="55" />
+  <Icon.EiComment class="text-blue-700 dark:text-red-500 inline" size="55" />
+  <Icon.EiCreditCard class="text-blue-700 dark:text-red-500 inline" size="55" />
+  <Icon.EiEnvelope class="text-blue-700 dark:text-red-500 inline" size="55" />
+  <Icon.EiExclamation class="text-blue-700 dark:text-red-500 inline" size="55" />
+  <Icon.EiExternalLink class="text-blue-700 dark:text-red-500 inline" size="55" />
+  <Icon.EiEye class="text-blue-700 dark:text-red-500 inline" size="55" />
+  <Icon.EiGear class="text-blue-700 dark:text-red-500 inline" size="55" />
+  <Icon.EiHeart class="text-blue-700 dark:text-red-500 inline" size="55" />
+  <Icon.EiImage class="text-blue-700 dark:text-red-500 inline" size="55" />
+  <Icon.EiLike class="text-blue-700 dark:text-red-500 inline" size="55" />
+  <Icon.EiLink class="text-blue-700 dark:text-red-500 inline" size="55" />
+  <Icon.EiLocation class="text-blue-700 dark:text-red-500 inline" size="55" />
+  <Icon.EiLock class="text-blue-700 dark:text-red-500 inline" size="55" />
+  <Icon.EiMinus class="text-blue-700 dark:text-red-500 inline" size="55" />
+  <Icon.EiNavicon class="text-blue-700 dark:text-red-500 inline" size="55" />
+  <Icon.EiPaperclip class="text-blue-700 dark:text-red-500 inline" size="55" />
+  <Icon.EiPencil class="text-blue-700 dark:text-red-500 inline" size="55" />
+  <Icon.EiPlay class="text-blue-700 dark:text-red-500 inline" size="55" />
+  <Icon.EiPlus class="text-blue-700 dark:text-red-500 inline" size="55" />
+  <Icon.EiPointer class="text-blue-700 dark:text-red-500 inline" size="55" />
+  <Icon.EiQuestion class="text-blue-700 dark:text-red-500 inline" size="55" />
+  <Icon.EiRedo class="text-blue-700 dark:text-red-500 inline" size="55" />
+  <Icon.EiRefresh class="text-blue-700 dark:text-red-500 inline" size="55" />
+  <Icon.EiRetweet class="text-blue-700 dark:text-red-500 inline" size="55" />
+  <Icon.EiScFacebook class="text-blue-700 dark:text-red-500 inline" size="55" />
+  <Icon.EiScGithub class="text-blue-700 dark:text-red-500 inline" size="55" />
+  <Icon.EiScGooglePlus class="text-blue-700 dark:text-red-500 inline" size="55" />
+  <Icon.EiScInstagram class="text-blue-700 dark:text-red-500 inline" size="55" />
+  <Icon.EiScLinkedin class="text-blue-700 dark:text-red-500 inline" size="55" />
+  <Icon.EiScOdnoklassniki class="text-blue-700 dark:text-red-500 inline" size="55" />
+  <Icon.EiScPinterest class="text-blue-700 dark:text-red-500 inline" size="55" />
+  <Icon.EiScSkype class="text-blue-700 dark:text-red-500 inline" size="55" />
+  <Icon.EiScSoundcloud class="text-blue-700 dark:text-red-500 inline" size="55" />
+  <Icon.EiScTelegram class="text-blue-700 dark:text-red-500 inline" size="55" />
+  <Icon.EiScTumblr class="text-blue-700 dark:text-red-500 inline" size="55" />
+  <Icon.EiScTwitter class="text-blue-700 dark:text-red-500 inline" size="55" />
+  <Icon.EiScVimeo class="text-blue-700 dark:text-red-500 inline" size="55" />
+  <Icon.EiScVk class="text-blue-700 dark:text-red-500 inline" size="55" />
+  <Icon.EiScYoutube class="text-blue-700 dark:text-red-500 inline" size="55" />
+  <Icon.EiSearch class="text-blue-700 dark:text-red-500 inline" size="55" />
+  <Icon.EiShareApple class="text-blue-700 dark:text-red-500 inline" size="55" />
+  <Icon.EiShareGoogle class="text-blue-700 dark:text-red-500 inline" size="55" />
+  <Icon.EiSpinner class="text-blue-700 dark:text-red-500 inline" size="55" />
+  <Icon.EiSpinner2 class="text-blue-700 dark:text-red-500 inline" size="55" />
+  <Icon.EiSpinner3 class="text-blue-700 dark:text-red-500 inline" size="55" />
+  <Icon.EiStar class="text-blue-700 dark:text-red-500 inline" size="55" />
+  <Icon.EiTag class="text-blue-700 dark:text-red-500 inline" size="55" />
+  <Icon.EiTrash class="text-blue-700 dark:text-red-500 inline" size="55" />
+  <Icon.EiTrophy class="text-blue-700 dark:text-red-500 inline" size="55" />
+  <Icon.EiUndo class="text-blue-700 dark:text-red-500 inline" size="55" />
+  <Icon.EiUnlock class="text-blue-700 dark:text-red-500 inline" size="55" />
+  <Icon.EiUser class="text-blue-700 dark:text-red-500 inline" size="55" />
 </div>
