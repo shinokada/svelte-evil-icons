@@ -19,6 +19,7 @@
 </p>
 
 ## Tailwind CSS dark
+
 <p align="center">
 <img width="450" src="https://raw.githubusercontent.com/shinokada/svelte-evil-icons/main/static/images/evil-tailwind-dark.webp" />
 </p>
