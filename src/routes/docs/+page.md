@@ -84,12 +84,11 @@ Use the `size` prop to change the size of icons.
 <EiBell size="40" />
 ```
 
-If you are using Tailwind CSS:
+If you are using Tailwind CSS, you can add a custom size using Tailwind CSS by including the desired classes in the `class` prop. For example:
 
 ```html
 <EiBell class="shrink-0 h-20 w-20" />
 ```
-
 
 ## CSS HEX Colors
 
