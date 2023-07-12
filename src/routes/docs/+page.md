@@ -22,14 +22,6 @@ Thank you for considering my open-source package. If you use it in a commercial 
 npm i -D svelte-evil-icons
 ```
 
-## Icon names
-
-[Icon list](/icon-list.md)
-
-## Icon images
-
-[Icon images](/icon-images.md)
-
 ## Usages
 
 In a svelte file:
@@ -71,10 +63,6 @@ To avoid any complaints from the editor, add `node16` or `nodenext` to `moduleRe
   }
 }
 ```
-
-## REPL
-
-[Demo]()
 
 ## Props
 
