@@ -19,7 +19,7 @@ Thank you for considering my open-source package. If you use it in a commercial 
 ## Installation
 
 ```sh
-npm i -D svelte-evil-icons
+pnpm i -D svelte-evil-icons
 ```
 
 ## Usages
