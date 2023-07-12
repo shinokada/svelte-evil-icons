@@ -36,7 +36,7 @@
     imageAlt: "Svelte Evil Icons"
   }} />
   
-<Navbar let:hidden let:toggle >
+<Navbar let:hidden let:toggle class="dark:bg-slate-900">
   <NavBrand href="/">
     <span class="self-center whitespace-nowrap text-xl font-semibold dark:text-white">
       Svelte Evil Icons
@@ -55,7 +55,7 @@
   <slot />
 </div>
 
-<Footer footerType="logo" class="dark:bg-gray-900">
+<Footer footerType="logo" class="dark:bg-slate-900">
   <div class="sm:flex sm:items-center sm:justify-between">
   <FooterBrand
   href="https://svelte-evil-icons.vercel.app/"
