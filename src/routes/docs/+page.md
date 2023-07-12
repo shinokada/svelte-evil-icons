@@ -100,12 +100,12 @@ Use the `color` prop to change colors with HEX color code.
 
 ## CSS framworks suport
 
-Use the `class` prop to change size, colors and add additional css.
+You can apply CSS framework color and other attributes directly to the icon component or its parent tag using the `class` prop.
 
 Tailwind CSS example:
 
 ```html
-<EiBell class="m-4" />
+<EiBell class="text-red-700 dark:text-green-300 inline m-1" />
 ```
 
 Bootstrap examples:
