@@ -1,78 +1,73 @@
 <script>
-  import * as Icon from '$lib';
-  import DarkMode from 'flowbite-svelte/DarkMode.svelte';
+  import Tabs from 'flowbite-svelte/Tabs.svelte';
+  import TabItem from 'flowbite-svelte/TabItem.svelte';
+  import TableSearch from 'flowbite-svelte/TableSearch.svelte';
+
+  import * as Icons from '$lib';
+
+  const random_tailwind_color = () => {
+    const colors = ['red', 'yellow', 'green', 'blue', 'indigo', 'purple', 'pink'];
+    const shades = ['300', '400', '500'];
+    const randomColor = colors[Math.floor(Math.random() * colors.length)];
+    const randomShade = shades[Math.floor(Math.random() * shades.length)];
+    return `text-${randomColor}-${randomShade} dark:text-${randomColor}-${randomShade} shrink-0 h-8 w-8`;
+  };
+  const random_hex_color_code = () => {
+    let n = (Math.random() * 0xfffff * 1000000).toString(16);
+    return '#' + n.slice(0, 6);
+  };
+  const contentClass = ' rounded-lg dark:bg-gray-900 mt-4';
+  let searchTerm = '';
+
+  $: filteredEntries = Object.entries(Icons).filter(([name, component]) => {
+    return name.toLowerCase().indexOf(searchTerm.toLowerCase()) !== -1;
+  });
+  let divClass = 'mx-16';
 </script>
 
-<DarkMode />
-<div>
-  <Icon.EiArchive class="inline" size="55" />
-  <Icon.EiArrowDown class="inline" size="55" />
-  <Icon.EiArrowLeft class="inline" size="55" />
-  <Icon.EiArrowRight class="inline" size="55" />
-  <Icon.EiArrowUp class="inline" size="55" />
-  <Icon.EiBell class="inline" size="55" />
-  <Icon.EiCalendar class="inline" size="55" />
-  <Icon.EiCamera class="inline" size="55" />
-  <Icon.EiCart class="inline" size="55" />
-  <Icon.EiChart class="inline" size="55" />
-  <Icon.EiCheck class="inline" size="55" />
-  <Icon.EiChevronDown class="inline" size="55" />
-  <Icon.EiChevronLeft class="inline" size="55" />
-  <Icon.EiChevronRight class="inline" size="55" />
-  <Icon.EiChevronUp class="inline" size="55" />
-  <Icon.EiClock class="inline" size="55" />
-  <Icon.EiClose class="inline" size="55" />
-  <Icon.EiCloseO class="inline" size="55" />
-  <Icon.EiComment class="inline" size="55" />
-  <Icon.EiCreditCard class="inline" size="55" />
-  <Icon.EiEnvelope class="inline" size="55" />
-  <Icon.EiExclamation class="inline" size="55" />
-  <Icon.EiExternalLink class="inline" size="55" />
-  <Icon.EiEye class="inline" size="55" />
-  <Icon.EiGear class="inline" size="55" />
-  <Icon.EiHeart class="inline" size="55" />
-  <Icon.EiImage class="inline" size="55" />
-  <Icon.EiLike class="inline" size="55" />
-  <Icon.EiLink class="inline" size="55" />
-  <Icon.EiLocation class="inline" size="55" />
-  <Icon.EiLock class="inline" size="55" />
-  <Icon.EiMinus class="inline" size="55" />
-  <Icon.EiNavicon class="inline" size="55" />
-  <Icon.EiPaperclip class="inline" size="55" />
-  <Icon.EiPencil class="inline" size="55" />
-  <Icon.EiPlay class="inline" size="55" />
-  <Icon.EiPlus class="inline" size="55" />
-  <Icon.EiPointer class="inline" size="55" />
-  <Icon.EiQuestion class="inline" size="55" />
-  <Icon.EiRedo class="inline" size="55" />
-  <Icon.EiRefresh class="inline" size="55" />
-  <Icon.EiRetweet class="inline" size="55" />
-  <Icon.EiScFacebook class="inline" size="55" />
-  <Icon.EiScGithub class="inline" size="55" />
-  <Icon.EiScGooglePlus class="inline" size="55" />
-  <Icon.EiScInstagram class="inline" size="55" />
-  <Icon.EiScLinkedin class="inline" size="55" />
-  <Icon.EiScOdnoklassniki class="inline" size="55" />
-  <Icon.EiScPinterest class="inline" size="55" />
-  <Icon.EiScSkype class="inline" size="55" />
-  <Icon.EiScSoundcloud class="inline" size="55" />
-  <Icon.EiScTelegram class="inline" size="55" />
-  <Icon.EiScTumblr class="inline" size="55" />
-  <Icon.EiScTwitter class="inline" size="55" />
-  <Icon.EiScVimeo class="inline" size="55" />
-  <Icon.EiScVk class="inline" size="55" />
-  <Icon.EiScYoutube class="inline" size="55" />
-  <Icon.EiSearch class="inline" size="55" />
-  <Icon.EiShareApple class="inline" size="55" />
-  <Icon.EiShareGoogle class="inline" size="55" />
-  <Icon.EiSpinner class="inline" size="55" />
-  <Icon.EiSpinner2 class="inline" size="55" />
-  <Icon.EiSpinner3 class="inline" size="55" />
-  <Icon.EiStar class="inline" size="55" />
-  <Icon.EiTag class="inline" size="55" />
-  <Icon.EiTrash class="inline" size="55" />
-  <Icon.EiTrophy class="inline" size="55" />
-  <Icon.EiUndo class="inline" size="55" />
-  <Icon.EiUnlock class="inline" size="55" />
-  <Icon.EiUser class="inline" size="55" />
-</div>
+<TableSearch
+  placeholder="Search by icon name"
+  hoverable={true}
+  bind:inputValue={searchTerm}
+  {divClass}
+>
+  <Tabs style="pill" {contentClass} class="p-4">
+    <TabItem open>
+      <span slot="title" class="text-lg">Mono</span>
+      <div class="grid xl:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-8 px-4 dark:text-white">
+        {#each filteredEntries as [name, component]}
+          <div class="flex gap-4 items-center text-lg">
+            <svelte:component this={component} class="shrink-0 h-8 w-8" />
+            {name}
+          </div>
+        {/each}
+      </div>
+    </TabItem>
+    <TabItem>
+      <span slot="title" class="text-lg">Random Hex Colors</span>
+      <div class="grid xl:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-8 px-4 dark:text-white">
+        {#each filteredEntries as [name, component]}
+          <div class="flex gap-4 items-center text-lg">
+            <svelte:component
+              this={component}
+              color={random_hex_color_code()}
+              class="shrink-0 h-8 w-8"
+            />
+            {name}
+          </div>
+        {/each}
+      </div>
+    </TabItem>
+    <TabItem>
+      <span slot="title" class="text-lg">Random Tailwind CSS Colors</span>
+      <div class="grid xl:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-8 px-4 dark:text-white">
+        {#each filteredEntries as [name, component]}
+          <div class="flex gap-4 items-center text-lg">
+            <svelte:component this={component} class={random_tailwind_color()} />
+            {name}
+          </div>
+        {/each}
+      </div>
+    </TabItem>
+  </Tabs>
+</TableSearch>
