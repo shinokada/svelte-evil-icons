@@ -84,6 +84,13 @@ Use the `size` prop to change the size of icons.
 <EiBell size="40" />
 ```
 
+If you are using Tailwind CSS:
+
+```html
+<EiBell class="shrink-0 h-20 w-20" />
+```
+
+
 ## CSS HEX Colors
 
 Use the `color` prop to change colors with HEX color code.
