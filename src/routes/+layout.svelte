@@ -38,14 +38,14 @@
   
 <Navbar let:hidden let:toggle class="dark:bg-slate-900">
   <NavBrand href="/">
-    <span class="self-center whitespace-nowrap text-xl font-semibold dark:text-white">
+    <span class="self-center whitespace-nowrap text-2xl font-semibold text-primary-700 dark:text-primary-500">
       Svelte Evil Icons
     </span>
   </NavBrand>
   <NavHamburger on:click={toggle} />
   <NavUl {hidden}>
     <NavLi href="/" active={activeUrl === '/'}>Home</NavLi>
-    <NavLi href="/docs" active={activeUrl === '/docs'}>Docs</NavLi>
+    <NavLi href="/icons" active={activeUrl === '/icons'}>Icons</NavLi>
     <NavLi href="https://github.com/shinokada/svelte-evil-icons">GitHub</NavLi>
     <NavLi href="https://svelte-svg-icons.vercel.app/">Icon sets</NavLi>
   </NavUl>
@@ -55,11 +55,12 @@
   <slot />
 </div>
 
-<Footer footerType="logo" class="dark:bg-slate-900">
+<Footer footerType="logo" class="dark:bg-slate-900 mx-8">
   <div class="sm:flex sm:items-center sm:justify-between">
   <FooterBrand
   href="https://svelte-evil-icons.vercel.app/"
   name="Svelte Evil Icons"
+  classSpan="text-primary-700 dark:text-primary-500"
 />
   <FooterLinkGroup ulClass="flex flex-wrap items-center mt-3 text-sm text-gray-500 dark:text-gray-400 sm:mt-0">
     <FooterLink href="/docs">Docs</FooterLink>
