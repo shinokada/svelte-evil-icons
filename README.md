@@ -16,6 +16,16 @@ Thank you for considering my open-source package. If you use it in a commercial 
 
 [GitHub Repo](https://github.com/shinokada/svelte-evil-icons)
 
+## Original source
+
+[evil-icons/evil-icons](https://github.com/evil-icons/evil-icons)
+
+## License
+
+[Svelte-Evlil-Icons License](https://github.com/shinokada/svelte-evil-icons/LICENSE)
+
+[Evil-Icons License](https://github.com/evil-icons/evil-icons/blob/master/LICENSE.txt)
+
 ## Installation
 
 ```sh
