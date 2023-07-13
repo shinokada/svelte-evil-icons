@@ -1,38 +1,26 @@
-<h1 align="center">Svelte Evil Icons</h1>
+# Svelte Evil Icons
 
-<p align="center">
-<a href="https://github.com/shinokada/svelte-evil-icons">Svelte-Evil-Icons</a>
-</p>
-
-<p align="center">
-<a href="https://github.com/sponsors/shinokada" target="_blank"><img src="https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub&color=%23fe8e86" height="25"></a>
-<a href="https://www.npmjs.com/package/svelte-evil-icons" rel="nofollow" target="_blank"><img src="https://img.shields.io/npm/v/svelte-evil-icons" alt="npm" height="25"></a>
-<a href="https://twitter.com/shinokada" rel="nofollow" target="_blank"><img src="https://img.shields.io/badge/created%20by-@shinokada-4BBAAB.svg" alt="Created by Shin Okada" height="25"></a>
-<a href="https://opensource.org/licenses/MIT" rel="nofollow" target="_blank"><img src="https://img.shields.io/github/license/shinokada/svelte-evil-icons" alt="License" height="25"></a>
-<a href="https://www.npmjs.com/package/svelte-evil-icons" rel="nofollow" target="_blank"><img src="https://img.shields.io/npm/dw/svelte-evil-icons.svg" alt="npm" height="25"></a>
-</p>
+<div class="flex gap-2 my-8">
+<a href="https://github.com/sponsors/shinokada" target="_blank"><img src="https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub&color=%23fe8e86" height="25" style="height: 25px !important;"></a>
+<a href="https://www.npmjs.com/package/svelte-evil-icons" rel="nofollow" target="_blank"><img src="https://img.shields.io/npm/v/svelte-evil-icons" alt="npm" height="25" style="height: 25px !important;"></a>
+<a href="https://twitter.com/shinokada" rel="nofollow" target="_blank"><img src="https://img.shields.io/badge/created%20by-@shinokada-4BBAAB.svg" alt="Created by Shin Okada" height="25" style="height: 25px !important;"></a>
+<a href="https://opensource.org/licenses/MIT" rel="nofollow" target="_blank"><img src="https://img.shields.io/github/license/shinokada/svelte-evil-icons" alt="License" height="25" style="height: 25px !important;"></a>
+<a href="https://www.npmjs.com/package/svelte-evil-icons" rel="nofollow" target="_blank"><img src="https://img.shields.io/npm/dw/svelte-evil-icons.svg" alt="npm" height="25" style="height: 25px !important;"></a>
+</div>
 
 70+ SVG [evil-icons](https://github.com/evil-icons/evil-icons) components for Svelte.
 
 Thank you for considering my open-source package. If you use it in a commercial project, please support me by sponsoring me on GitHub: https://github.com/sponsors/shinokada. Your support helps me maintain and improve this package for the benefit of the community.
 
-<p align="center">
-<img width="450" src="https://raw.githubusercontent.com/shinokada/svelte-evil-icons/main/static/images/evil-color.webp" />
-</p>
+## Repo
+
+[GitHub Repo](https://github.com/shinokada/svelte-evil-icons)
 
 ## Installation
 
 ```sh
-npm i -D svelte-evil-icons
+pnpm i -D svelte-evil-icons
 ```
-
-## Icon names
-
-[Icon list](/icon-list.md)
-
-## Icon images
-
-[Icon images](/icon-images.md)
 
 ## Usages
 
@@ -76,10 +64,6 @@ To avoid any complaints from the editor, add `node16` or `nodenext` to `moduleRe
 }
 ```
 
-## REPL
-
-[Demo]()
-
 ## Props
 
 - @prop strokeWidth = '2'
@@ -100,6 +84,12 @@ Use the `size` prop to change the size of icons.
 <EiBell size="40" />
 ```
 
+If you are using Tailwind CSS, you can add a custom size using Tailwind CSS by including the desired classes in the `class` prop. For example:
+
+```html
+<EiBell class="shrink-0 h-20 w-20" />
+```
+
 ## CSS HEX Colors
 
 Use the `color` prop to change colors with HEX color code.
@@ -110,12 +100,12 @@ Use the `color` prop to change colors with HEX color code.
 
 ## CSS framworks suport
 
-Use the `class` prop to change size, colors and add additional css.
+You can apply CSS framework color and other attributes directly to the icon component or its parent tag using the `class` prop.
 
 Tailwind CSS example:
 
 ```html
-<EiBell class="m-4" />
+<EiBell class="text-red-700 dark:text-green-300 inline m-1" />
 ```
 
 Bootstrap examples:
