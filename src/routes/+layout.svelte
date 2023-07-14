@@ -62,7 +62,7 @@
   <slot />
 </div>
 
-<Footer footerType="logo" class="dark:bg-slate-900 mx-8">
+<Footer footerType="logo" class="dark:bg-slate-900">
   <div class="sm:flex sm:items-center sm:justify-between">
   <FooterBrand
   href="https://svelte-evil-icons.vercel.app/"
