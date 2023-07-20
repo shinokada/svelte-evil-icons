@@ -2,6 +2,32 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.3](https://github.com/shinokada/svelte-evil-icons/compare/v0.1.2...v0.1.3) (2023-07-20)
+
+
+### Features
+
+* add docs ([f5b63d4](https://github.com/shinokada/svelte-evil-icons/commit/f5b63d47a420a4e7c0f3681ea425980787bfb25b))
+* add size range and remove all ([2e6064a](https://github.com/shinokada/svelte-evil-icons/commit/2e6064a8d518a1f89ae79ff71e36f87cb7d756ba))
+* add style to code ([2b68da4](https://github.com/shinokada/svelte-evil-icons/commit/2b68da4bd8366895c4019b206dc632f4b0198702))
+* dark for default ([a944cbe](https://github.com/shinokada/svelte-evil-icons/commit/a944cbef0e1f63cfeca60a9afc7ef5e337264064))
+
+
+### Bug Fixes
+
+* footer links ([40cec51](https://github.com/shinokada/svelte-evil-icons/commit/40cec5170844d3ec897a56c1e362e3d427198576))
+* footer update ([1307497](https://github.com/shinokada/svelte-evil-icons/commit/130749747078b582613bbeee15ae2ee7efa2aab3))
+* homepage update ([7e591b5](https://github.com/shinokada/svelte-evil-icons/commit/7e591b59cb30c9f0b89ebf324752dc8a8a1043e0))
+* icon-images page ([a2ac29b](https://github.com/shinokada/svelte-evil-icons/commit/a2ac29b352ebbc56d850d5cd34274a6803b0667c))
+* icon-images page ([89d0d57](https://github.com/shinokada/svelte-evil-icons/commit/89d0d578bb83afa68039f2a1f08c481bce44c9dc))
+* icon-images page ([218fd56](https://github.com/shinokada/svelte-evil-icons/commit/218fd56e8cc5619859bf14b19dc663be90f0858e))
+* range bar width update ([72501df](https://github.com/shinokada/svelte-evil-icons/commit/72501df36d279d7aa40432baf8fa6f4a2a508935))
+* range update ([5696763](https://github.com/shinokada/svelte-evil-icons/commit/56967631d76e1d546293d378b0dd610629466048))
+* update docs page ([175dd6d](https://github.com/shinokada/svelte-evil-icons/commit/175dd6d5112e0ab6578e057f42c3c0d20073b78d))
+* update flowbite-svelte v0.40.1, add @floating-ui/dom remove flowbite, add tests ([9de577c](https://github.com/shinokada/svelte-evil-icons/commit/9de577cc50a4d2219d53c6a9481b765a7d2a4866))
+* update license ([ad5295e](https://github.com/shinokada/svelte-evil-icons/commit/ad5295e33176a210d90ca8297b28cdc7ea146527))
+* update range ([383b006](https://github.com/shinokada/svelte-evil-icons/commit/383b006a3a4e50d0ca95f3e8661aaec4a0325810))
+
 ### [0.1.2](https://github.com/shinokada/svelte-evil-icons/compare/v0.1.1...v0.1.2) (2023-07-03)
 
 
