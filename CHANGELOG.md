@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.2.5](https://github.com/shinokada/svelte-evil-icons/compare/v0.2.4...v0.2.5) (2023-07-28)
+
+
+### Bug Fixes
+
+* make name in Icon reactive ([27281f0](https://github.com/shinokada/svelte-evil-icons/commit/27281f0ec4573f8872c82b546bd3f2a9b3a775ce))
+* page update ([6461484](https://github.com/shinokada/svelte-evil-icons/commit/6461484ff56d64ff2c09c17fb46cff5026096142))
+
 ### [0.2.4](https://github.com/shinokada/svelte-evil-icons/compare/v0.2.3...v0.2.4) (2023-07-28)
 
 
