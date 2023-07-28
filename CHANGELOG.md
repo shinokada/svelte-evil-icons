@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.2.2](https://github.com/shinokada/svelte-evil-icons/compare/v0.2.1...v0.2.2) (2023-07-28)
+
+
+### Features
+
+* export icons.js ([12c210c](https://github.com/shinokada/svelte-evil-icons/commit/12c210c5c8fe9f84dcbdc642fe8a95d07c1b2c7f))
+
 ### [0.2.1](https://github.com/shinokada/svelte-evil-icons/compare/v0.1.3...v0.2.1) (2023-07-28)
 
 
