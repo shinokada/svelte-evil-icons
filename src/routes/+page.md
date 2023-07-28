@@ -38,49 +38,21 @@ In a svelte file:
 
 ```html
 <script>
-  import { EiBell } from 'svelte-evil-icons';
+  import { Icon } from 'svelte-evil-icons';
 </script>
 
-<EiBell />
-```
-
-## Faster compiling
-
-If you need only a few icons from this library in your Svelte app, import them directly. This can optimize compilation speed and improve performance by reducing the amount of code processed during compilation.
-
-```html
-<script>
-  import EiBell from 'svelte-evil-icons/EiBell.svelte';
-</script>
-
-<EiBell />
-```
-
-If you are a TypeScript user, install **typescript version 5.0.0 or above**.
-
-```sh
-pnpm i -D typescript@latest
-```
-
-To avoid any complaints from the editor, add `node16` or `nodenext` to `moduleResolution` in your tsconfig.json file.
-
-```json
-{
-  //...
-  "compilerOptions": {
-    // ...
-    "moduleResolution": "nodenext"
-  }
-}
+<Icon name="bell" />
 ```
 
 ## Props
 
-- @prop strokeWidth = '2'
+- @prop name;
+- @prop width = '50';
+- @prop height = '50';
+- @prop strokeWidth = '2';
 - @prop role = 'img';
-- @prop size = '50';
 - @prop color = 'currentColor'
-- @prop ariaLabel='file name'
+- @prop ariaLabel='icon name'
 
 ## IDE support
 
@@ -88,10 +60,10 @@ If you are using an LSP-compatible editor, such as VSCode, Atom, Sublime Text, o
 
 ## Size
 
-Use the `size` prop to change the size of icons.
+Use the `width` and `height` props to change the size of icons.
 
 ```html
-<EiBell size="40" />
+<Icon name="bell" width="100" height="100" />
 ```
 
 If you are using Tailwind CSS, you can add a custom size using Tailwind CSS by including the desired classes in the `class` prop. For example:
