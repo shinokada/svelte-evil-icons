@@ -21,9 +21,11 @@
   const contentClass = ' rounded-lg dark:bg-slate-900 mt-4';
   let searchTerm = '';
 
-  $: filteredEntries = Object.entries(icons).filter(([name, component]) => {
-    return name.toLowerCase().indexOf(searchTerm.toLowerCase()) !== -1;
-  });
+  $: filteredEntries = Object.entries(icons).filter((name) => {
+    // console.log(name[0])
+      return name[0].indexOf(searchTerm.toLowerCase()) !== -1;
+    });
+
   let size="24"
 </script>
 
@@ -44,8 +46,7 @@
     <TabItem open>
       <span slot="title" class="text-lg">Mono</span>
       <div class="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-8 px-4 dark:text-white">
-
-            {#each Object.keys(icons) as name}
+            {#each filteredEntries as [name]}
             <div class="flex gap-4 items-center text-lg">
               <Icon name={name} bind:width={size} bind:height={size} class="shrink-0"/>
               {name}
@@ -56,7 +57,7 @@
     <TabItem>
       <span slot="title" class="text-lg">Random Hex Colors</span>
       <div class="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-8 px-4 dark:text-white">
-        {#each Object.keys(icons) as name}
+        {#each filteredEntries as [name]}
         <div class="flex gap-4 items-center text-lg">
           <Icon name={name} bind:width={size} bind:height={size} color={random_hex_color_code()} class="shrink-0"/>
           {name}
@@ -67,7 +68,7 @@
     <TabItem>
       <span slot="title" class="text-lg">Random Tailwind CSS Colors</span>
       <div class="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-8 px-4 dark:text-white">
-        {#each Object.keys(icons) as name}
+        {#each filteredEntries as [name]}
         <div class="flex gap-4 items-center text-lg">
           <Icon name={name} bind:width={size} bind:height={size} class={random_tailwind_color()} />
           {name}
