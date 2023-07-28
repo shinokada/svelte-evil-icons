@@ -45,7 +45,7 @@
     <TabItem open>
       <span slot="title" class="text-lg">Mono</span>
       <div class="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-8 px-4 dark:text-white">
-        {#each filteredIconNames as iconName}
+        {#each filteredIconNames as iconName, i}
         <div class="flex gap-4 items-center text-lg">
           <Icon name={iconName} bind:width={size} bind:height={size} class="shrink-0"/>
           {iconName}
@@ -56,7 +56,7 @@
     <TabItem>
       <span slot="title" class="text-lg">Random Hex Colors</span>
       <div class="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-8 px-4 dark:text-white">
-        {#each filteredIconNames as iconName}
+        {#each filteredIconNames as iconName, i}
         <div class="flex gap-4 items-center text-lg">
           <Icon name={iconName} bind:width={size} bind:height={size} color={random_hex_color_code()} class="shrink-0"/>
           {iconName}
@@ -67,7 +67,7 @@
     <TabItem>
       <span slot="title" class="text-lg">Random Tailwind CSS Colors</span>
       <div class="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-8 px-4 dark:text-white">
-        {#each filteredIconNames as iconName}
+        {#each filteredIconNames as iconName, i}
         <div class="flex gap-4 items-center text-lg">
           <Icon name={iconName} bind:width={size} bind:height={size} class={random_tailwind_color()} />
           {iconName}
