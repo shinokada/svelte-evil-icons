@@ -10,7 +10,7 @@
 
 70+ SVG [evil-icons](https://github.com/evil-icons/evil-icons) components for Svelte.
 
-Thank you for considering my open-source package. If you use it in a commercial project, please support me by sponsoring me on GitHub: https://github.com/sponsors/shinokada. Your support helps me maintain and improve this package for the benefit of the community.
+Thank you for considering my open-source package. If you use it in a commercial project, please support me by sponsoring me on [the GitHub sponsor](https://github.com/sponsors/shinokada). Your support helps me maintain and improve this package for the benefit of the community.
 
 ## Repo
 
@@ -69,7 +69,7 @@ Use the `width` and `height` props to change the size of icons.
 If you are using Tailwind CSS, you can add a custom size using Tailwind CSS by including the desired classes in the `class` prop. For example:
 
 ```html
-<EiBell class="shrink-0 h-20 w-20" />
+<Icon name="bell" class="shrink-0 h-20 w-20" />
 ```
 
 ## CSS HEX Colors
@@ -77,7 +77,7 @@ If you are using Tailwind CSS, you can add a custom size using Tailwind CSS by i
 Use the `color` prop to change colors with HEX color code.
 
 ```html
-<EiBell color="#c61515" />
+<Icon name="bell" color="#c61515" />
 ```
 
 ## CSS framworks suport
@@ -87,13 +87,13 @@ You can apply CSS framework color and other attributes directly to the icon comp
 Tailwind CSS example:
 
 ```html
-<EiBell class="text-red-700 dark:text-green-300 inline m-1" />
+<Icon name="bell" class="text-red-700 inline m-1" />
 ```
 
 Bootstrap examples:
 
 ```html
-<EiBell class="position-absolute top-0 px-1" />
+<Icon name="bell" class="position-absolute top-0 px-1" />
 ```
 
 ## Dark mode
@@ -103,16 +103,16 @@ If you are using the dark mode on your website with Tailwind CSS, add your dark 
 Let's use `dark` for the dark mode class as an example.
 
 ```html
-<EiBell class="text-blue-700 dark:text-red-500" />
+<Icon name="bell" class="text-red-700 dark:text-green-500" />
 ```
 
 ## aria-label
 
-All icons have aria-label. For example `EiBell` has `aria-label="ei bell"`.
+All icons have aria-label. For example `bell` has `aria-label="bell"`.
 Use `ariaLabel` prop to modify the `aria-label` value.
 
 ```html
-<EiBell ariaLabel="ei bell" />
+<Icon name="bell" ariaLabel="red bell" color="#c61515"/>
 ```
 
 ## Unfocusable icon
@@ -120,7 +120,7 @@ Use `ariaLabel` prop to modify the `aria-label` value.
 If you want to make an icon unfocusable, add `tabindex="-1"`.
 
 ```html
-<EiBell tabindex="-1" />
+<Icon name="bell" tabindex="-1" />
 ```
 
 ## Events
@@ -142,54 +142,51 @@ All icons have the following events:
 You can pass other attibutes as well.
 
 ```html
-<EiBell tabindex="0" />
+<Icon name="bell" tabindex="0" />
 ```
 
 ## Using svelte:component
 
 ```html
-<script>
-  import { EiBell } from 'svelte-evil-icons';
-</script>
-
-<svelte:component this="{EiBell}" />
+<svelte:component this="{Icon}" name="bell"/>
 ```
 
 ## Using onMount
 
 ```html
 <script>
-  import { EiBell } from 'svelte-evil-icons';
+  import {Icon} from 'svelte-evil-icons';
   import { onMount } from 'svelte';
   const props = {
+    name: 'arrow-down',
     size: '50',
     color: '#ff0000'
   };
   onMount(() => {
-    const icon = new EiBell({ target: document.body, props });
+    const icon = new Icon({ target: document.body, props });
   });
 </script>
 ```
 
 ## Import all
 
-Use `import * as Icon from 'svelte-evil-icons`.
+Use `import * as Sei from 'svelte-evil-icons`.
 
 ```html
 <script>
-  import * as Icon from 'svelte-evil-icons';
+  import * as Sei from 'svelte-evil-icons';
 </script>
 
-<Icon.EiBell />
+<Icon name="bell"  />
 
 <h1>Size</h1>
-<Icon.EiBell size="30" />
+<Icon.Icon size="30" />
 
 <h1>CSS HEX color</h1>
-<Icon.EiBell color="#c61515" size="40" />
+<Icon.Icon color="#c61515" size="40" />
 
 <h1>Tailwind CSS</h1>
-<Icon.EiBell class="text-blue-500" />
+<Icon.Icon class="text-blue-500" />
 ```
 
 ## Other icons
