@@ -170,23 +170,19 @@ You can pass other attibutes as well.
 
 ## Import all
 
-Use `import * as Sei from 'svelte-evil-icons`.
+Use `import {Icon, icons} from 'svelte-evil-icons';`.
 
 ```html
 <script>
-  import * as Sei from 'svelte-evil-icons';
+  import {Icon, icons} from 'svelte-evil-icons';
 </script>
 
-<Icon name="bell"  />
-
-<h1>Size</h1>
-<Icon.Icon size="30" />
-
-<h1>CSS HEX color</h1>
-<Icon.Icon color="#c61515" size="40" />
-
-<h1>Tailwind CSS</h1>
-<Icon.Icon class="text-blue-500" />
+{#each Object.keys(icons) as name}
+<div class="flex gap-4 items-center text-lg">
+  <Icon name={name} bind:width={size} bind:height={size} class="shrink-0"/>
+  {name}
+</div>
+{/each}
 ```
 
 ## Other icons
