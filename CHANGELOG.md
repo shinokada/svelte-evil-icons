@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.2.1](https://github.com/shinokada/svelte-evil-icons/compare/v0.1.3...v0.2.1) (2023-07-28)
+
+
+### Features
+
+* change to two files ([a78299d](https://github.com/shinokada/svelte-evil-icons/commit/a78299dc3ae6bb2cd14dd79e1c64c82daa962247))
+* single file import ([20edeb8](https://github.com/shinokada/svelte-evil-icons/commit/20edeb8251116b1eba73251b514a3f35934dfb62))
+
 ### [0.1.3](https://github.com/shinokada/svelte-evil-icons/compare/v0.1.2...v0.1.3) (2023-07-20)
 
 ### Features
