@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.2.8](https://github.com/shinokada/svelte-evil-icons/compare/v0.2.7...v0.2.8) (2023-07-29)
+
+
+### Bug Fixes
+
+* add main to package.json ([dd418dd](https://github.com/shinokada/svelte-evil-icons/commit/dd418ddf35a011fbb4af3fa4e7c53b254c72aeb5))
+
 ### [0.2.7](https://github.com/shinokada/svelte-evil-icons/compare/v0.2.6...v0.2.7) (2023-07-29)
 
 
