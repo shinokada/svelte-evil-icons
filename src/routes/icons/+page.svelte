@@ -73,7 +73,6 @@
           {iconName}
         </div>
         {/each}
-        
       </div>
     </TabItem>
   </Tabs>
