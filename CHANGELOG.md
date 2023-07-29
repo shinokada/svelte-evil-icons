@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.2.7](https://github.com/shinokada/svelte-evil-icons/compare/v0.2.6...v0.2.7) (2023-07-29)
+
+
+### Bug Fixes
+
+* restProps position and docs props update ([7d1979b](https://github.com/shinokada/svelte-evil-icons/commit/7d1979b6405713b6011056f8152cc2832f058709))
+
 ### [0.2.6](https://github.com/shinokada/svelte-evil-icons/compare/v0.2.5...v0.2.6) (2023-07-28)
 
 
