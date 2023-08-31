@@ -56,24 +56,6 @@ If you need only a few icons from this library in your Svelte app, import them d
 <EiBell />
 ```
 
-If you are a TypeScript user, install **typescript version 5.0.0 or above**.
-
-```sh
-pnpm i -D typescript@latest
-```
-
-To avoid any complaints from the editor, add `node16` or `nodenext` to `moduleResolution` in your tsconfig.json file.
-
-```json
-{
-  //...
-  "compilerOptions": {
-    // ...
-    "moduleResolution": "nodenext"
-  }
-}
-```
-
 ## Props
 
 - @prop strokeWidth = '2'
@@ -94,11 +76,106 @@ Use the `size` prop to change the size of icons.
 <EiBell size="40" />
 ```
 
-If you are using Tailwind CSS, you can add a custom size using Tailwind CSS by including the desired classes in the `class` prop. For example:
+If you are using Tailwind CSS, you can EiArrowDown a custom size using Tailwind CSS by including the desired classes in the `class` prop. For example:
 
 ```html
 <EiBell class="shrink-0 h-20 w-20" />
 ```
+
+
+## Creating a Default Global Icon Setting in Svelte
+
+You can create a config file, `/src/lib/icon.config.json`.
+
+The `Icon` component serves as a wrapper for svelte:component, allowing you to establish a global default setting or expand the capabilities of a component.
+
+To create a default global icon setting, follow these steps:
+
+### Configuration File
+
+Start by creating a configuration file named `/src/lib/icon.config.json` with the following structure:
+
+```json
+{
+  "config1": {
+    "size": 40,
+    "color": "#FF5733"
+  },
+  "config2": {
+    "size": 50,
+    "color": "#445533"
+  }
+}
+```
+
+In this JSON file, you can define different configurations (config1 and config2 in this case) for your icons, specifying attributes like size, variation, and color.
+
+### Implementation
+
+In your Svelte page file, make use of the configurations from the JSON file:
+
+```html
+<script lang="ts">
+  type IconConfig = {
+    config1: {
+      size: number;
+      color: string;
+    };
+    config2: {
+      size: number;
+      color: string;
+    };
+  };
+  import config from '$lib/icon.config.json';
+  import { Icon, EiArrowDown, EiBell } from 'svelte-evil-icons';
+
+  const iconConfig: IconConfig = config;
+  const config1 = iconConfig.config1;
+  const config2 = iconConfig.config2;
+</script>
+
+<Icon {...config1} icon="{EiArrowDown}" />
+<Icon {...config2} icon="{EiBell}" />
+```
+
+We import the configurations from the JSON file and assign them to config1 and config2. We then utilize the Icon component with the spread attributes `{...config1}` and `{...config2}` to apply the respective configurations to each icon.
+
+### Custom Default Icon
+
+If you wish to create a custom default icon, you can follow these steps:
+
+Create a Svelte component named `src/lib/MyIcon.svelte`:
+
+```html
+<script lang="ts">
+  import type { ComponentType } from 'svelte';
+  const config = {
+    size: 30,
+    color: '#FF5733'
+  };
+  import { Icon } from 'svelte-evil-icons';
+  export let icon: ComponentType;
+</script>
+
+<Icon {...config} {icon} />
+```
+
+This component, `MyIcon.svelte`, accepts an `icon` prop which you can use to pass in the specific icon component you want to display. The default configuration is also applied to the icon.
+
+### Implementation in a Page
+
+To use your custom default icon in a Svelte page, do the following:
+
+```html
+<script>
+  import MyIcon from '$lib/MyIcon.svelte';
+  import { EiArrowDown } from 'svelte-evil-icons';
+</script>
+
+<MyIcon icon="{EiArrowDown}" />
+```
+
+Here, we import the `MyIcon` component and the `EiArrowDown` icon. By passing the `EiArrowDown` icon to the `icon` prop of MyIcon, you apply the default configuration to the icon.
 
 ## CSS HEX Colors
 
@@ -126,7 +203,7 @@ Bootstrap examples:
 
 ## Dark mode
 
-If you are using the dark mode on your website with Tailwind CSS, add your dark mode class to the `class` prop.
+If you are using the dark mode on your website with Tailwind CSS, EiArrowDown your dark mode class to the `class` prop.
 
 Let's use `dark` for the dark mode class as an example.
 
@@ -145,7 +222,7 @@ Use `ariaLabel` prop to modify the `aria-label` value.
 
 ## Unfocusable icon
 
-If you want to make an icon unfocusable, add `tabindex="-1"`.
+If you want to make an icon unfocusable, EiArrowDown `tabindex="-1"`.
 
 ```html
 <EiBell tabindex="-1" />
