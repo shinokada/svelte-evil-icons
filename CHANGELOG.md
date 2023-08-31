@@ -6,70 +6,61 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.2.10](https://github.com/shinokada/svelte-evil-icons/compare/v0.2.9...v0.2.10) (2023-07-31)
 
-
 ### Bug Fixes
 
-* component doc update ([1af95fa](https://github.com/shinokada/svelte-evil-icons/commit/1af95fa6e669fc027ad39eb996ad36b370169ec4))
+- component doc update ([1af95fa](https://github.com/shinokada/svelte-evil-icons/commit/1af95fa6e669fc027ad39eb996ad36b370169ec4))
 
 ### [0.2.9](https://github.com/shinokada/svelte-evil-icons/compare/v0.2.8...v0.2.9) (2023-07-29)
 
-
 ### Bug Fixes
 
-* update add-exports-to-package-json ([856f09b](https://github.com/shinokada/svelte-evil-icons/commit/856f09b5afb3a5ef211c2672d13c3a8677949898))
+- update add-exports-to-package-json ([856f09b](https://github.com/shinokada/svelte-evil-icons/commit/856f09b5afb3a5ef211c2672d13c3a8677949898))
 
 ### [0.2.8](https://github.com/shinokada/svelte-evil-icons/compare/v0.2.7...v0.2.8) (2023-07-29)
 
-
 ### Bug Fixes
 
-* add main to package.json ([dd418dd](https://github.com/shinokada/svelte-evil-icons/commit/dd418ddf35a011fbb4af3fa4e7c53b254c72aeb5))
+- add main to package.json ([dd418dd](https://github.com/shinokada/svelte-evil-icons/commit/dd418ddf35a011fbb4af3fa4e7c53b254c72aeb5))
 
 ### [0.2.7](https://github.com/shinokada/svelte-evil-icons/compare/v0.2.6...v0.2.7) (2023-07-29)
 
-
 ### Bug Fixes
 
-* restProps position and docs props update ([7d1979b](https://github.com/shinokada/svelte-evil-icons/commit/7d1979b6405713b6011056f8152cc2832f058709))
+- restProps position and docs props update ([7d1979b](https://github.com/shinokada/svelte-evil-icons/commit/7d1979b6405713b6011056f8152cc2832f058709))
 
 ### [0.2.6](https://github.com/shinokada/svelte-evil-icons/compare/v0.2.5...v0.2.6) (2023-07-28)
 
-
 ### Bug Fixes
 
-* props update ([be10fcc](https://github.com/shinokada/svelte-evil-icons/commit/be10fcc72c29fa2033cb62167548e3101c216814))
+- props update ([be10fcc](https://github.com/shinokada/svelte-evil-icons/commit/be10fcc72c29fa2033cb62167548e3101c216814))
 
 ### [0.2.5](https://github.com/shinokada/svelte-evil-icons/compare/v0.2.4...v0.2.5) (2023-07-28)
 
-
 ### Bug Fixes
 
-* make name in Icon reactive ([27281f0](https://github.com/shinokada/svelte-evil-icons/commit/27281f0ec4573f8872c82b546bd3f2a9b3a775ce))
-* page update ([6461484](https://github.com/shinokada/svelte-evil-icons/commit/6461484ff56d64ff2c09c17fb46cff5026096142))
+- make name in Icon reactive ([27281f0](https://github.com/shinokada/svelte-evil-icons/commit/27281f0ec4573f8872c82b546bd3f2a9b3a775ce))
+- page update ([6461484](https://github.com/shinokada/svelte-evil-icons/commit/6461484ff56d64ff2c09c17fb46cff5026096142))
 
 ### [0.2.4](https://github.com/shinokada/svelte-evil-icons/compare/v0.2.3...v0.2.4) (2023-07-28)
 
-
 ### Bug Fixes
 
-* typo ([4cafcb0](https://github.com/shinokada/svelte-evil-icons/commit/4cafcb0a983d15d3c81dda35d83f6edc89ba40b6))
+- typo ([4cafcb0](https://github.com/shinokada/svelte-evil-icons/commit/4cafcb0a983d15d3c81dda35d83f6edc89ba40b6))
 
 ### [0.2.3](https://github.com/shinokada/svelte-evil-icons/compare/v0.2.2...v0.2.3) (2023-07-28)
 
 ### [0.2.2](https://github.com/shinokada/svelte-evil-icons/compare/v0.2.1...v0.2.2) (2023-07-28)
 
-
 ### Features
 
-* export icons.js ([12c210c](https://github.com/shinokada/svelte-evil-icons/commit/12c210c5c8fe9f84dcbdc642fe8a95d07c1b2c7f))
+- export icons.js ([12c210c](https://github.com/shinokada/svelte-evil-icons/commit/12c210c5c8fe9f84dcbdc642fe8a95d07c1b2c7f))
 
 ### [0.2.1](https://github.com/shinokada/svelte-evil-icons/compare/v0.1.3...v0.2.1) (2023-07-28)
 
-
 ### Features
 
-* change to two files ([a78299d](https://github.com/shinokada/svelte-evil-icons/commit/a78299dc3ae6bb2cd14dd79e1c64c82daa962247))
-* single file import ([20edeb8](https://github.com/shinokada/svelte-evil-icons/commit/20edeb8251116b1eba73251b514a3f35934dfb62))
+- change to two files ([a78299d](https://github.com/shinokada/svelte-evil-icons/commit/a78299dc3ae6bb2cd14dd79e1c64c82daa962247))
+- single file import ([20edeb8](https://github.com/shinokada/svelte-evil-icons/commit/20edeb8251116b1eba73251b514a3f35934dfb62))
 
 ### [0.1.3](https://github.com/shinokada/svelte-evil-icons/compare/v0.1.2...v0.1.3) (2023-07-20)
 

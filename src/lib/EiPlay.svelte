@@ -1,0 +1,44 @@
+<script>
+  export let strokeWidth = '2';
+  export let color = 'currentColor';
+  export let size = '50';
+  export let role = 'img';
+  export let ariaLabel = 'ei play';
+</script>
+
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width={size}
+  height={size}
+  fill={color}
+  {role}
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  stroke-width={strokeWidth}
+  {...$$restProps}
+  aria-label={ariaLabel}
+  on:click
+  on:keydown
+  on:keyup
+  on:focus
+  on:blur
+  on:mouseenter
+  on:mouseleave
+  on:mouseover
+  on:mouseout
+  viewBox="0 0 50 50"
+  ><path
+    d="M25 42c-9.4 0-17-7.6-17-17S15.6 8 25 8s17 7.6 17 17-7.6 17-17 17zm0-32c-8.3 0-15 6.7-15 15s6.7 15 15 15 15-6.7 15-15-6.7-15-15-15z"
+  /><path d="M20 33.7V16.3L35 25l-15 8.7zm2-14v10.5l9-5.3-9-5.2z" /></svg
+>
+
+<!--
+@component
+[Go to docs](https://svelte-evil-icons.vercel.app)
+## Props
+@prop export let strokeWidth = '2';
+@prop export let color = 'currentColor';
+@prop export let size = '50';
+@prop export let role = 'img';
+@prop export let ariaLabel = 'ei play';
+-->
