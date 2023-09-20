@@ -4,10 +4,9 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.3.1](https://github.com/shinokada/svelte-evil-icons/compare/v0.2.11...v0.3.1) (2023-08-31)
 
-
 ### Features
 
-* smaller compiled size and Icon component ([3070a30](https://github.com/shinokada/svelte-evil-icons/commit/3070a308c47721936ce381782e877f988542802a))
+- smaller compiled size and Icon component ([3070a30](https://github.com/shinokada/svelte-evil-icons/commit/3070a308c47721936ce381782e877f988542802a))
 
 ### [0.2.11](https://github.com/shinokada/svelte-evil-icons/compare/v0.2.10...v0.2.11) (2023-08-03)
 

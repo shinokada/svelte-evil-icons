@@ -1,3 +1,7 @@
+---
+layout: mainLayout
+---
+
 # Svelte Evil Icons
 
 <div class="flex gap-2 my-8">
@@ -81,7 +85,6 @@ If you are using Tailwind CSS, you can EiArrowDown a custom size using Tailwind 
 ```html
 <EiBell class="shrink-0 h-20 w-20" />
 ```
-
 
 ## Creating a Default Global Icon Setting in Svelte
 
