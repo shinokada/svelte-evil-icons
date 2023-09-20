@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.3.3](https://github.com/shinokada/svelte-evil-icons/compare/v0.3.2...v0.3.3) (2023-09-20)
+
+
+### Features
+
+* add context ([11b3798](https://github.com/shinokada/svelte-evil-icons/commit/11b3798dfb980e388db95ed8fe38a830fe7549d7))
+
 ### [0.3.2](https://github.com/shinokada/svelte-evil-icons/compare/v0.3.1...v0.3.2) (2023-09-20)
 
 ### Features
