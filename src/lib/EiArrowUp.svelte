@@ -1,8 +1,10 @@
 <script>
-  export let strokeWidth = '2';
-  export let color = 'currentColor';
-  export let size = '50';
-  export let role = 'img';
+  import { getContext } from 'svelte';
+  const ctx = getContext('iconCtx') ?? {};
+  export let strokeWidth = ctx.strokeWidth || '2';
+  export let size = ctx.size || '50';
+  export let role = ctx.role || 'img';
+  export let color = ctx.color || 'currentColor';
   export let ariaLabel = 'ei arrow up';
 </script>
 
@@ -38,9 +40,9 @@
 @component
 [Go to docs](https://svelte-evil-icons.vercel.app)
 ## Props
-@prop export let strokeWidth = '2';
-@prop export let color = 'currentColor';
-@prop export let size = '50';
-@prop export let role = 'img';
+@prop export let strokeWidth = ctx.strokeWidth || '2';
+@prop export let size = ctx.size || '50';
+@prop export let role = ctx.role || 'img';
+@prop export let color = ctx.color || 'currentColor';
 @prop export let ariaLabel = 'ei arrow up';
 -->

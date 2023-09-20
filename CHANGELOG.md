@@ -4,10 +4,9 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.3.2](https://github.com/shinokada/svelte-evil-icons/compare/v0.3.1...v0.3.2) (2023-09-20)
 
-
 ### Features
 
-* add sidebar menu ([209426f](https://github.com/shinokada/svelte-evil-icons/commit/209426f48c9602a7bd720b0eb71b57abb8e16121))
+- add sidebar menu ([209426f](https://github.com/shinokada/svelte-evil-icons/commit/209426f48c9602a7bd720b0eb71b57abb8e16121))
 
 ### [0.3.1](https://github.com/shinokada/svelte-evil-icons/compare/v0.2.11...v0.3.1) (2023-08-31)
 
