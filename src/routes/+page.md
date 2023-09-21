@@ -62,11 +62,11 @@ If you need only a few icons from this library in your Svelte app, import them d
 
 ## Props
 
-- @prop strokeWidth = '2'
-- @prop role = 'img';
-- @prop size = '50';
-- @prop color = 'currentColor'
-- @prop ariaLabel='file name'
+- strokeWidth = ctx.strokeWidth || '2';
+- size = ctx.size || '50';
+- role = ctx.role || 'img';
+- color = ctx.color || 'currentColor';
+- ariaLabel = 'file name';
 
 ## IDE support
 
@@ -85,7 +85,6 @@ If you are using Tailwind CSS, you can EiArrowDown a custom size using Tailwind 
 ```html
 <EiBell class="shrink-0 h-20 w-20" />
 ```
-
 
 ## Setting Global Icon using setContext
 
