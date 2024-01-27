@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.1](https://github.com/shinokada/svelte-evil-icons/compare/v0.3.5...v1.0.1) (2024-01-27)
+
+
+### Bug Fixes
+
+* add class="ml-3 m-0 lg:hidden md:block" to NavHamburger ([4a84c35](https://github.com/shinokada/svelte-evil-icons/commit/4a84c35a7165d7bb0cc0d2ab7535e04b7e426bd8))
+
 ### [0.3.5](https://github.com/shinokada/svelte-evil-icons/compare/v0.3.4...v0.3.5) (2023-09-21)
 
 ### [0.3.4](https://github.com/shinokada/svelte-evil-icons/compare/v0.3.3...v0.3.4) (2023-09-21)
