@@ -20,16 +20,6 @@ Thank you for considering my open-source package. If you use it in a commercial 
 
 [GitHub Repo](https://github.com/shinokada/svelte-evil-icons)
 
-## Original source
-
-[evil-icons/evil-icons](https://github.com/evil-icons/evil-icons)
-
-## License
-
-[Svelte-Evlil-Icons License](https://github.com/shinokada/svelte-evil-icons/LICENSE)
-
-[Evil-Icons License](https://github.com/evil-icons/evil-icons/blob/master/LICENSE.txt)
-
 ## Installation
 
 ```sh
@@ -340,6 +330,16 @@ Use `import * as Icon from 'svelte-evil-icons`.
 <Icon.EiBell class="text-blue-500" />
 ```
 
+## Original source
+
+[evil-icons/evil-icons](https://github.com/evil-icons/evil-icons)
+
+## License
+
+[Svelte-Evlil-Icons License](https://github.com/shinokada/svelte-evil-icons/LICENSE)
+
+[Evil-Icons License](https://github.com/evil-icons/evil-icons/blob/master/LICENSE.txt)
+
 ## Other icons
 
-- [Svelte-Icon-Sets](https://svelte-svg-icons.vercel.app/)
+- [Svelte-Icon-Sets](https://svelte-svg-icons.codewithshin.com/)
