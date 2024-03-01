@@ -1,6 +1,6 @@
 {
   "name": "svelte-evil-icons",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "dist/index.js",
   "description": "Svelte SVG Evil icons component",
   "author": {
