@@ -40,7 +40,7 @@
 
 <!--
 @component
-[Go to docs](https://svelte-evil-icons.vercel.app)
+[Go to docs](https://svelte-evil-icons.codewithshin.com)
 ## Props
 @prop export let strokeWidth = ctx.strokeWidth || '2';
 @prop export let size = ctx.size || '50';
